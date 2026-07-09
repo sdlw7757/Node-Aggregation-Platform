@@ -392,8 +392,14 @@ body::before {
     transform: translateY(-2px);
 }
 .tool-icon {
-    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    color: #00d2ff;
     flex-shrink: 0;
+}
+.tool-icon svg {
+    width: 100%;
+    height: 100%;
 }
 .tool-info h4 {
     color: #e0e8f0;
@@ -736,7 +742,7 @@ body::before {
         </div>
         <div class="tools-content">
             <div class="tool-card">
-                <div class="tool-icon">🔄</div>
+                <div class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 21h5v-5"/></svg></div>
                 <div class="tool-info">
                     <h4>订阅转换工具</h4>
                     <p>解决节点链接兼容问题，支持多种格式转换</p>
@@ -744,7 +750,7 @@ body::before {
                 </div>
             </div>
             <div class="tool-card">
-                <div class="tool-icon">🆔</div>
+                <div class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
                 <div class="tool-info">
                     <h4>UUID 一键生成</h4>
                     <p>生成符合标准的 UUID v4 格式</p>
@@ -756,7 +762,7 @@ body::before {
                 </div>
             </div>
             <div class="tool-card">
-                <div class="tool-icon">🖥️</div>
+                <div class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9h16"/><path d="M9 4v5"/></svg></div>
                 <div class="tool-info">
                     <h4>VPS 一键四协议安装脚本</h4>
                     <p>支持 V2Ray / Trojan / NaiveProxy / Shadowsocks</p>
