@@ -1,0 +1,69 @@
+name: 免费节点爬虫 - 每日定时抓取
+
+on:
+  schedule:
+  - cron: '0 22 * * *'   # 北京时间 06:00
+  - cron: '0 0 * * *'    # 北京时间 08:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 运行爬虫（抓取最近7天内容）
+        run: python scraper.py
+
+      - name: 生成 HTML
+        run: python generate_html.py
+
+      - name: 准备 Pages 产物
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: 提交更新到仓库
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/nodes.json index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: 自动更新免费节点数据 $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
