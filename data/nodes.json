@@ -61,6 +61,22 @@
   },
   {
     "source": "v2rayshare.net",
+    "title": "「8月5日」2026年最新高速SSR/V2ray/Clash/Shadowrocket/Mihomo免费节点订阅链接",
+    "date": "2026-08-05",
+    "url": "https://v2rayshare.net/p/5106.html",
+    "v2ray_links": [
+      "https://static.v2rayshare.net/2026/08/20260805.txt"
+    ],
+    "clash_links": [
+      "https://static.v2rayshare.net/2026/08/20260805.yaml"
+    ],
+    "sing_box_links": [],
+    "mihomo_links": [
+      "https://static.v2rayshare.net/2026/08/m20260805.yaml"
+    ]
+  },
+  {
+    "source": "v2rayshare.net",
     "title": "「8月4日」2026年最新高速SSR/V2ray/Clash/Shadowrocket/Mihomo免费节点订阅链接",
     "date": "2026-08-04",
     "url": "https://v2rayshare.net/p/5107.html",
@@ -414,86 +430,6 @@
     "sing_box_links": [],
     "mihomo_links": [
       "https://static.v2rayshare.net/2026/07/m20260730.yaml"
-    ]
-  },
-  {
-    "source": "freev2raynode.com",
-    "title": "7月29日免费节点分享|20.6M/S，Clash节点/V2ray节点/SSR节点/Singbox节点|免费上网梯子每天更新",
-    "date": "2026-07-29",
-    "url": "https://www.freev2raynode.com/free-node-subscription/2026-7-29-free-high-speed-nodes.htm",
-    "v2ray_links": [
-      "https://node.freev2raynode.com/uploads/2026/07/0-20260729.txt",
-      "https://node.freev2raynode.com/uploads/2026/07/1-20260729.txt",
-      "https://node.freev2raynode.com/uploads/2026/07/2-20260729.txt",
-      "https://node.freev2raynode.com/uploads/2026/07/3-20260729.txt",
-      "https://node.freev2raynode.com/uploads/2026/07/4-20260729.txt"
-    ],
-    "clash_links": [
-      "https://node.freev2raynode.com/uploads/2026/07/0-20260729.yaml",
-      "https://node.freev2raynode.com/uploads/2026/07/2-20260729.yaml",
-      "https://node.freev2raynode.com/uploads/2026/07/3-20260729.yaml"
-    ],
-    "sing_box_links": [
-      "https://node.freev2raynode.com/uploads/2026/07/20260729.json"
-    ],
-    "mihomo_links": []
-  },
-  {
-    "source": "freeclashnode.com",
-    "title": "7月29日免费节点分享|21.7M/S，Singbox节点/Clash节点/V2ray节点/SSR节点|免费上网梯子每天更新",
-    "date": "2026-07-29",
-    "url": "https://www.freeclashnode.com/free-node/2026-7-29-free-v2ray-subscribe.htm",
-    "v2ray_links": [
-      "https://node.freeclashnode.com/uploads/2026/07/0-20260729.txt",
-      "https://node.freeclashnode.com/uploads/2026/07/1-20260729.txt",
-      "https://node.freeclashnode.com/uploads/2026/07/3-20260729.txt",
-      "https://node.freeclashnode.com/uploads/2026/07/4-20260729.txt"
-    ],
-    "clash_links": [
-      "https://node.freeclashnode.com/uploads/2026/07/0-20260729.yaml",
-      "https://node.freeclashnode.com/uploads/2026/07/2-20260729.yaml",
-      "https://node.freeclashnode.com/uploads/2026/07/3-20260729.yaml"
-    ],
-    "sing_box_links": [
-      "https://node.freeclashnode.com/uploads/2026/07/20260729.json"
-    ],
-    "mihomo_links": []
-  },
-  {
-    "source": "clashnode.cc",
-    "title": "7月29日免费节点分享|18.9M/S，Singbox节点/V2ray节点/SSR节点/Clash节点|免费上网梯子每天更新",
-    "date": "2026-07-29",
-    "url": "https://clashnode.cc/free-node/2026-7-29-free-v2ray-subscribe.htm",
-    "v2ray_links": [
-      "https://node.clashnode.cc/uploads/2026/07/0-20260729.txt",
-      "https://node.clashnode.cc/uploads/2026/07/2-20260729.txt",
-      "https://node.clashnode.cc/uploads/2026/07/3-20260729.txt",
-      "https://node.clashnode.cc/uploads/2026/07/4-20260729.txt"
-    ],
-    "clash_links": [
-      "https://node.clashnode.cc/uploads/2026/07/0-20260729.yaml",
-      "https://node.clashnode.cc/uploads/2026/07/1-20260729.yaml",
-      "https://node.clashnode.cc/uploads/2026/07/3-20260729.yaml"
-    ],
-    "sing_box_links": [
-      "https://node.clashnode.cc/uploads/2026/07/20260729.json"
-    ],
-    "mihomo_links": []
-  },
-  {
-    "source": "v2rayshare.net",
-    "title": "「7月29日」2026年最新高速SSR/V2ray/Clash/Shadowrocket/Mihomo免费节点订阅链接",
-    "date": "2026-07-29",
-    "url": "https://v2rayshare.net/p/5113.html",
-    "v2ray_links": [
-      "https://static.v2rayshare.net/2026/07/20260729.txt"
-    ],
-    "clash_links": [
-      "https://static.v2rayshare.net/2026/07/20260729.yaml"
-    ],
-    "sing_box_links": [],
-    "mihomo_links": [
-      "https://static.v2rayshare.net/2026/07/m20260729.yaml"
     ]
   }
 ]
