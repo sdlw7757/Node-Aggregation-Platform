@@ -67,6 +67,22 @@
   },
   {
     "source": "v2rayshare.net",
+    "title": "「8月11日」2026年最新高速SSR/V2ray/Clash/Shadowrocket/Mihomo免费节点订阅链接",
+    "date": "2026-08-11",
+    "url": "https://v2rayshare.net/p/5100.html",
+    "v2ray_links": [
+      "https://static.v2rayshare.net/2026/08/20260811.txt"
+    ],
+    "clash_links": [
+      "https://static.v2rayshare.net/2026/08/20260811.yaml"
+    ],
+    "sing_box_links": [],
+    "mihomo_links": [
+      "https://static.v2rayshare.net/2026/08/m20260811.yaml"
+    ]
+  },
+  {
+    "source": "v2rayshare.net",
     "title": "「8月10日」2026年最新高速SSR/V2ray/Clash/Shadowrocket/Mihomo免费节点订阅链接",
     "date": "2026-08-10",
     "url": "https://v2rayshare.net/p/5101.html",
@@ -340,22 +356,6 @@
     "sing_box_links": [],
     "mihomo_links": [
       "https://static.v2rayshare.net/2026/08/m20260805.yaml"
-    ]
-  },
-  {
-    "source": "v2rayshare.net",
-    "title": "「8月4日」2026年最新高速SSR/V2ray/Clash/Shadowrocket/Mihomo免费节点订阅链接",
-    "date": "2026-08-04",
-    "url": "https://v2rayshare.net/p/5107.html",
-    "v2ray_links": [
-      "https://static.v2rayshare.net/2026/08/20260804.txt"
-    ],
-    "clash_links": [
-      "https://static.v2rayshare.net/2026/08/20260804.yaml"
-    ],
-    "sing_box_links": [],
-    "mihomo_links": [
-      "https://static.v2rayshare.net/2026/08/m20260804.yaml"
     ]
   }
 ]
