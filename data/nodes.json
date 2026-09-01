@@ -58,6 +58,22 @@
     "mihomo_links": []
   },
   {
+    "source": "v2rayshare.net",
+    "title": "「9月1日」2026年最新高速SSR/V2ray/Clash/Shadowrocket/Mihomo免费节点订阅链接",
+    "date": "2026-09-01",
+    "url": "https://v2rayshare.net/p/5079.html",
+    "v2ray_links": [
+      "https://static.v2rayshare.net/2026/09/20260901.txt"
+    ],
+    "clash_links": [
+      "https://static.v2rayshare.net/2026/09/20260901.yaml"
+    ],
+    "sing_box_links": [],
+    "mihomo_links": [
+      "https://static.v2rayshare.net/2026/09/m20260901.yaml"
+    ]
+  },
+  {
     "source": "clashnode.cc",
     "title": "8月31日免费节点分享|20.2M/S，V2ray节点/Singbox节点/Clash节点/Shadowrocket节点|免费上网梯子每天更新",
     "date": "2026-08-31",
